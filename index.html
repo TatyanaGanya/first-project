@@ -1,160 +1,164 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/style.css">
-  <link rel="stylesheet" href="./styles/normalize.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/normalize.css" />
+  <link rel="stylesheet" href="./assets/style.css" />
+
+  <title>Black-Room Quest</title>
 </head>
-<body>
-  <div class="page">
-    <header class="header">
-      <img class="header__logo logo_palce_header" src="./images/logo/logo_place_header.svg alt="yandex_logo">
-      <h1 class="header__title">
-  Научиться<br> учиться
-      </h1>
-      <p class="header__suptitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__linl">Узнать&rarr;</a>  
-      </p>
-      <div class="header__square-pic"> 
-      </div>
-        <img class="header__main-illustration" src="./images/two_again.png" alt="main-illustration">
-    </header>
-   <main class="content">
-      <section class="description">
-        <div class="two-colums">
-          <h2 class="two-colums__brief">Главные проблемы в обучении</h2>
-            <div class="two-colums__main-text">
-              <p class="two-colums__paragraph"> Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
-              <p class="two-colums__paragraph"> <span class="two-colums__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
-              <p class="two-colums__paragraph"> Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
-            </div>
-        </div> 
-      </section>
-      <section class="digits">
-        <h2 class="section-title">Цифры и факты</h2>
-        <p class="section-suptitle">Про учёбу и мозг</p>
-        <div class="table">
-          <div class="table__cell">
-            <h3 class="table__cell_heading">86 миллиардов</h3>
-            <p class="table__cell_text">Число нейронов в мозге человека</p>
+
+<body class="content">
+  <header class="header">
+    <img src="./src/image/Black-room.png" alt="квесты" class="header__logo" />
+    <p class="header__title"> </p>
+    <p class="header__today">1999.09.09 06.06.06</p>
+  </header>
+
+  <main class="main">
+      <div class="new_impotant__main">
+        <h1 class="new_impotant_title">Лента новостей</h1>
+        <div class="new_impotant__about">
+          <div>
+            <p>В последнее время участилось случаи пропажи компаний людей число пропавших без вести уже перерасло
+              допустимые нормы.</p>
+            <p>Cтало известно о группе друзей покинувших вечеринку для избранных, которая проводилась на наб Обводного
+              канала и бесследно исчезнувших в этом районе. У каждого из исчезнувших была с собой видеокамера,
+              работающая в режиме постоянной съемки, материалы сьемки изучаются.</p>
           </div>
-          <div class="table__cell">
-            <h3 class="table__cell_heading">2.1 миллиарда
-            </h3>
-            <p class="table__cell_text">Число нуждающихся в повышении квалификации</p>
-            <p class="table__cell_text">Всемирный Банк, 2017
-            </p>
-          </div>          
-          <div class="table__cell">
-            <h3 class="table__cell_heading">1000 терабайт
-            </h3>
-            <p class="table__cell_text">Объём памяти человека
-            </p>
-          </div>          
-          <div class="table__cell">
-            <h3 class="table__cell_heading">500 триллионов
-            </h3>
-            <p class="table__cell_text">Число ответственных за обучение нервных синапсов у взрослого человека
-            </p>
-          </div>         
-          <div class="table__cell">
-            <h3 class="table__cell_heading">420 миллионов</h3>
-            <p class="table__cell_text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
-            <p class="table__cell_text">Всемирный Банк, 2017</p>
-          </div>          
-          <div class="table__cell">
-            <h3 class="table__cell_heading">17–20 лет</h3>
-            <p class="table__cell_text">Пик обучаемости</p>
-          </div>          
-          <div class="table__cell">
-            <h3 class="table__cell_heading">1885 год</h3>
-            <p class="table__cell_text">Открытие кривой забывания</p>
-          </div>         
-          <div class="table__cell">
-            <h3 class="table__cell_heading">1889 год</h3>
-          <p class="table__cell_text">Открытие условного рефлекса</p>
-          </div>
+          <img src="./src/image/map.png" class="new_impotant__map" alt="map">
         </div>
-      </section>
-      <section class="feynman">
-        <h2 class="feynman__title" >Метод Фейнмана</h2>
-        <p class="feynman__subtitle">Выучить и не забыть.</p>
-       <a class="feynman__link" href="#"  alt="">Подробнее&rarr;</a>
-          <img class="feynman__image" src="./images/feynman.png" alt="Метод Фейнмана">
-      </section>
-      <section class="kaufman">
-        <img class="kaufman__image" src="./images/kaufman-triangle.svg" alt="">
-        <h2 class="section-title_theme_dark">Принципы обучения</h2>
-        <p class="section-suptitle section-suptitle_theme_dark">от Джоша Кауфмана</p>
-        <div class="table">
-          <div class="table__cell_theme_dark">
-            <p class="table__cell_heading">1</p>
-            <p class="table__cell_text">Выберите привлекательный проект.</p>
+        <div class="hr"></div>
+        <div><a class="arrow-3" href="#impotan-new">Напоминаем об открытии квеста
+          <svg class="arrow-3-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+            <g fill="none" stroke="#337AB7" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+              <circle class="arrow-3-iconcircle" cx="16" cy="16" r="15.12"></circle>
+              <path class="arrow-3-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+            </g>
+          </svg>
+        </a></div>
+        <div class="hr"></div>
+
+        <div class="new_impotant__about">
+          <div>
+            <p>Число пропавших без вести в районе Обводного канала выросло вдвое.</p>
+            <p>Прошло 6 месяцев с момента пропажи группы студентов-журналистов отправившихся расследовать убийство,
+              совершенное 66 года</p>
+            <p> И вот опять новое исчезновение трое молодых блогеров которые проникли на территорию закрытого дома,
+              чтобы снять лучший ролик для своего канала. Казалось, что здание заброшено, но очень быстро они понили что
+              ошиблись, что не одни в этом страшном месте. Их дальнейшая судьба не известна нашему новостному каналу.
+            </p>
           </div>
-          <div class="table__cell_theme_dark">
-            <p class="table__cell_heading">2</p>
-            <p class="table__cell_text">Сосредоточьтесь на каком-то одном навыке.</p>
-          </div>
-          <div class="table__cell_theme_dark">
-            <p class="table__cell_heading">3</p>
-            <p class="table__cell_text">Определите целевой уровень мастерства.</p>
-          </div>
-          <div class="table__cell_theme_dark">
-            <p class="table__cell_heading">4</p>
-            <p class="table__cell_text">Разбейте навык на элементы.</p>
-          </div>
-          <div class="table__cell_theme_dark">
-            <p class="table__cell_heading">5</p>
-            <p class="table__cell_text">Приготовьте всё необходимое для занятий.</p>
-          </div>
-          <div class="table__cell_theme_dark">
-            <p class="table__cell_heading">6</p>
-            <p class="table__cell_text">Устраните препятствия для занятий.</p>
-          </div>
-          <div class="table__cell_theme_dark">
-            <p class="table__cell_heading">7</p>
-            <p class="table__cell_text">Выделите специальное время для занятий.</p>
-          </div>
-          <div class="table__cell_theme_dark">
-            <p class="table__cell_heading">8</p>
-            <p class="table__cell_text">Создайте быстрые петли обратной связи.</p>
-          </div>
-          <div class="table__cell_theme_dark">
-            <p class="table__cell_heading">9</p>
-            <p class="table__cell_text">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
-          </div>
-          <div class="table__cell_theme_dark">
-            <p class="table__cell_heading">10</p>
-            <p class="table__cell_text">Уделяйте внимание количеству и скорости.</p>
-          </div>
+          <img src="./src/image/foto_people_03.png" class="new_impotant__map" alt="map">
         </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer__columns">
-      <div class="footer__column_copyright">
-        <img class="footer_logo" src="./images/logo/logo_place_footer.svg" alt="yandex_logo"> 
-        <p class="footor__author">&copy; Ганя Татьяна</p>
-      </div>
-        <nav class="footer__columns_content_info">
-          <h3 class="footer__column-heading">О Практикуме</h3>
-          <ul>
-            <li class="footer__columns_links"><a href="#">Главная</a></li>
-            <li class="footer__columns_links"><a href="#">Концепция</a></li>
-            <li class="footer__columns_links"><a href="#">Наставники</a></li>
-          </ul>
-        </nav>
-        <div class="footer__columns_content_social">
-          <h3 class="footer__column-heading">Соцсети</h3>
-          <ul>
-            <li class="footer__columns_links"><a href="#"><img class="footer__column-icon" src="./images/youtube-icon.svg" alt="YouTobe">YouTobe</a></li>
-            <li class="footer__columns_links"><a class="footer__column-link" href="#"><img class="footer__column-icon" src="./images/vk_color_white.svg" alt="Вконтакте">Вконтакте</a></li>
-            <li class="footer__columns_links"><a class="footer__column-link" href="#"><img class="footer__column-icon" src="./images/tiktok-icon.svg" alt="TikTok">TikTok</a></li>
-          </ul> 
+
+        <div class="hr"></div>
+
+        <div><a class="arrow-3" href="#safety">Главные требования безопасности при посещении игрового пространства.
+          <svg class="arrow-3-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+            <g fill="none" stroke="#337AB7" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+              <circle class="arrow-3-iconcircle" cx="16" cy="16" r="15.12"></circle>
+              <path class="arrow-3-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+            </g>
+          </svg>
+        </a></div>
+        <div class="hr"></div>
+
+        <div class="new_impotant__about">
+          <div>
+            <p>Прошел всего год с того времени, как четверо студентов были убиты на вечеринке около обводного канала,
+              что неподалеку от улицы Циалковского. И вот снова новое нападение, как расказывает единственный выживший,
+              которому удалось вырваться и убежать они всего лишь хотели проведать одинокую девушку живущую в этом
+              районе.</p>
+          </div>
+          <img src="./src/image/foto_people_00.png" class="new_impotant__map" alt="map">
         </div>
-      </div>
-    </footer>
+        <div class="hr"></div>
+
+        <div class="new_impotant__about">
+         <div><p>Продолжается расследование убийства семьи Лоусон произошедшее в жутком доме.</p> 
+          <p> 25 декабря 1929 года, в Рождество, Чарли отослал 17-летнюю дочь Мери с каким-то поручением, сам же притаился с ружьем у амбара, куда складывали табак. Увидев дочерей, 12-летнюю Кэрри и 7-летнюю Мейбел, он выпалил в них их ружья, после чего еще и забил их дубиной, желая удостовериться, что они мертвы. Застрелил жену, стоявшую на пороге. Его 14-летняя дочь, находившаяся в доме, начала кричать, а двое маленьких сыновей, 4-летний Джеймс и 2-летний Раймонд, попытались спрятаться, но Чарли перебил их всех. Его последней жертвой стала четырехмесячная дочь Мэри Лу. Покончив со своими детьми, Чарли Лоусон застрелился.Единственная выжившая представительницу семьи — старшая дочь, 17-летнюю Мери - все посчитали настоящей убийцей. Но поскольку доказательств этому так и не нашли, девушку не арестовали. 
+          <p>Однако недобрая людская молва привела к тому, что Ленора скрылась в своём особняке на долгие годы, перестав показываться публике.</p></div> 
+          <img src="./src/image/loyns.jpg" class="new_impotant__map" alt="map">
+        </div>
+        <div class="hr"></div>
+  
+  
+        </div>
+        <div class="hr"></div>
+        <section>
+          <h2 id="impotan-new">Главные события города</h2>
+          <div class="impoten-main"></div>
+          <div>
+            <p>Именно в этом доме в произошло жуткие события — погибли супруги Хоуп и пропала их младшая дочь Вирджиния.
+              Единственную выжившую представительницу семьи — старшую дочь, 17-летнюю Ленору, — все посчитали убийцей.
+              Но поскольку доказательств этому так и не нашли, девушку не арестовали. Однако недобрая людская молва
+              привела к тому, что Ленора скрылась в своём особняке на долгие годы, перестав показываться публике.</p>
+            <p>Попавший к вам в руки дневник маленькой Вирджинии поможет раскрыть тайны жуткого дома…</p>
+            <p>Правила посещения дома</p>
+            <p>Ждём вас в гости наш адрес :</p>
+            <p>не одевать белое, каблуки и пачкающиеся вещи </p>
+            <p>Наш адрес:</p>
+            <p>м. Балтийская ул Циолковского, д. 13-15, лит Б.</p>
+            <p>Вход на ул. Циолковского 13-15 заходите во двор, поворачиваете направо, далее налево до упора,
+              подымаетесь на второй этаж.</p>
+            <p>+7 (906)269-91-41</p>
+            <button class="open-info">Подробнее:</button>
+          </div>
+
+        </section>
+
+        <div class="hr"></div>
+<section><h2 class="safety" id="safety">Основные требования безопасности.</h2>
+  <p>Каждый участник, находящийся на локации, как в гостевом, так и в игровом пространстве, обязан соблюдать
+    указанные правила:</p>
+  <p>В гостевом, а также в игровом пространстве следует соблюдать осторожность при передвижении по локациям и на
+    ЛЕСТНИЧНЫХ ПРОЕМАХ, не толкать и не удерживать участников мероприятия.</p>
+  <h3>Запрещено</h3>
+  <ul>
+    <li>Проносить с собой в игру и использовать во время игры какое-либо оборудование, включая мобильные телефоны,
+      фотоаппараты, фонарики, а также любой ручной инструмент, в том числе колющие и режущие предметы: холодное,
+      огнестрельное оружие и оружие самообороны.</li>
+    <li>Передвигать мебель, залезать на предметы мебели, ходить по мебели, портить декорации и интерьер. Вырывать
+      провода, выкручивать лампочки запрещено выкручивать любые монтажные крепления.</li>
+    <li>Во время игры удерживать двери, так как это может привести к травмам и к нарушению сюжета игры. </li>
+    <li>Вступать в физический контакт с персонажем, в том числе применять к нему грубую силу или кидать в него
+      различные предметы, а также махать руками и ногами, находясь рядом с ним.</li>
+    <li>Находиться на территории игрового пространства в состоянии алкогольно-наркотического опьянения, употреблять
+      спиртные напитки и курить.</li>
+  </ul>
+  <h3>Не рекомендуется:</h3>
+  <p>Игра не рекомендуется беременным женщинам, а также людям, имеющим медицинские противопоказания для нахождения в
+    замкнутом пространстве, в условиях повышенного эмоционально-психологического напряжения, в том числе хронические
+    заболевания сердечно-сосудистой системы, нервно-психологические расстройства и аллергические реакции на ПЫЛЬ, а
+    также изделия из кожи и меха.</p>
+  <h3>Внимание!</h3>
+  <p>Участник обязан в случае резкого ухудшения самочувствия незамедлительно проинформировать об этом оператора игры
+    и покинуть игровую зону.
+  <p>
+  <p>Так же обращаем ваше внимание, что каждая локация оснащена записывающим видеонаблюдением.</p></section>
+      
+  </main>
+  <footer class="footer">
+
+    <p class="footer_quest"></p>  +7 906 269-91-41
+  </footer>
+
+  <div class="popup">
+    <div class="popup__container">
+      <h4 class="popup__title"></h4>
+      <p class="popup__text">На ул. Циолковского между 13 и 15 домом заходите во двор</p>
+      <img src="./src/image/howToGoQuest_01.png" alt="как пройти на квест" class="popup__image">
+
+      <p class="popup__text">поворачиваете направо, далее налево до упора, подымаетесь на второй этаж</p>
+      <img src="./src/image/howToGoQuest_02.png" alt="как пройти на квест" class="popup__image">
+      <button class="popup__close" type="button"></button>
+    </div>
   </div>
+  <script src="./assets/script.js"></script>
 </body>
+
 </html>

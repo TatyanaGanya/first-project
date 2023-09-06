@@ -1,0 +1,178 @@
+
+.content {
+    margin: 0 auto;
+    padding: 0;
+    background-color: gainsboro;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+margin: 0;
+padding: 0;
+background: #337AB7;
+}
+
+.header__logo {
+    width: 60px;
+}
+
+.header__title {
+    text-transform:  uppercase;
+}
+
+.main
+{
+    padding: 0;
+    margin: 0 10px;
+}
+.marquee__header {
+    background-color: rgba(214, 0, 0);
+    padding: 10px;
+}
+
+.new_impotant__map {
+    max-width: 600px;
+    width: 90%;
+}
+
+.new_impotant__about {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+/* стрелка */
+.arrow-3 {
+    color: #337AB7;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px; 
+    display: inline-block; 
+    margin: 20px;
+}
+.arrow-3 .arrow-3-icon {
+    position: relative;
+    top: -1px;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+.arrow-3 .arrow-3-iconcircle {
+    transition: stroke-dashoffset .3s ease;
+    stroke-dasharray: 95;
+    stroke-dashoffset: 95;
+}
+.arrow-3:hover .arrow-3-icon {
+    transform: translate3d(5px, 0, 0);
+}
+.arrow-3:hover .arrow-3-iconcircle {
+    stroke-dashoffset: 0;
+}
+
+
+/* попоп */
+.popup {
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility .5s, opacity 0.5s linear;
+
+}
+
+.popup_open {
+    visibility: visible;
+    opacity: 1;
+}
+.popup__container {
+    position: relative;
+    max-width: 80vh;
+    width: 430px;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 34px 36px 37px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+    margin: 0;
+    padding: 0 auto;
+}
+
+@media screen and (max-width: 540px) {
+    .popup__container {
+        width: 282px;
+        padding: 10px 15px; 
+    }
+}
+
+.popup__close {
+    background: none;
+    background-image: url(../src/image/clouse.png);
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: .5s; 
+}
+
+.popup__close:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width: 540px) {
+    .popup__close {
+        top: -36px;
+        right: 0;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.popup__image {
+    width: 100%;
+    max-width: 75vw;
+    max-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup__title {
+    margin: 0;
+    padding: 5px;
+}
+
+.popup__text {
+    margin: 0;
+    padding: 0;
+}
+
+.hr {
+    border-bottom: 1px solid gray;
+    margin: 5px;
+}
+
+.footer {
+    background: #337AB7;
+}
